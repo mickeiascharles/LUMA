@@ -1,0 +1,18 @@
+{
+  "name": "luma-ideia-space",
+  "version": "1.0.0",
+  "description": "MVP LUMA para a Ideia Space com frontend estatico e backend basico.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": [
+    "luma",
+    "ideia-space",
+    "backend",
+    "mvp"
+  ],
+  "author": "Equipe LUMA",
+  "license": "MIT"
+}

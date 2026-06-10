@@ -1,0 +1,73 @@
+{
+  "project": {
+    "name": "LUMA",
+    "company": "Ideia Space",
+    "description": "Learning & User Manual Assistant para apoiar experiencias educacionais com satelite, sensores, telemetria e aprendizagem por missao.",
+    "mvp": "Prototipo web com backend basico para demonstracao academica.",
+    "status": "MVP"
+  },
+  "missionSteps": [
+    {
+      "id": "connect",
+      "title": "Conectar",
+      "description": "O aluno conecta o kit educacional e inicia o fluxo de missao."
+    },
+    {
+      "id": "program",
+      "title": "Programar",
+      "description": "A logica embarcada e preparada para ler sensores e simular operacoes."
+    },
+    {
+      "id": "collect",
+      "title": "Coletar",
+      "description": "O sistema organiza leituras de sensores em um pacote simples de telemetria."
+    },
+    {
+      "id": "analyze",
+      "title": "Analisar",
+      "description": "Os dados viram perguntas investigativas e discussoes tecnicas em sala."
+    }
+  ],
+  "components": [
+    {
+      "id": "obdh",
+      "name": "OBDH",
+      "subsystem": "Computador de bordo",
+      "description": "Modulo responsavel por coordenar a logica de operacao, sensores e comunicacao.",
+      "learningGoal": "Relacionar programacao embarcada com controle de missao."
+    },
+    {
+      "id": "imu",
+      "name": "IMU",
+      "subsystem": "Sensoriamento",
+      "description": "Unidade de medida inercial usada para leituras de movimento e orientacao.",
+      "learningGoal": "Interpretar aceleracao e movimento em experimentos praticos."
+    },
+    {
+      "id": "bme280",
+      "name": "Sensor ambiental",
+      "subsystem": "Telemetria",
+      "description": "Sensor para medidas ambientais como temperatura e pressao.",
+      "learningGoal": "Transformar leituras fisicas em dados analisaveis."
+    },
+    {
+      "id": "solar",
+      "name": "Placas solares",
+      "subsystem": "Energia",
+      "description": "Conjunto de celulas para demonstrar captacao luminosa e alimentacao.",
+      "learningGoal": "Investigar relacao entre luz, energia e autonomia do sistema."
+    }
+  ],
+  "telemetrySample": {
+    "temperatureC": 26.4,
+    "pressureHpa": 1012.7,
+    "batteryV": 3.92,
+    "signal": "stable",
+    "missionMode": "education-demo"
+  },
+  "ai": {
+    "runtimeEnabled": false,
+    "status": "planned",
+    "message": "A versao atual nao chama API de IA em tempo real. O backend deixa o ponto preparado para uma evolucao com assistente LUMA."
+  }
+}
